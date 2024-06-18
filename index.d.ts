@@ -59,6 +59,7 @@ export interface SectionedMultiSelectProps<ItemType> {
   items?: ItemType[]
   displayKey?: string
   displayComponent?: React.ReactNode
+  filterMatchKeys?: string[]
   uniqueKey: string
   subKey?: string
   onSelectedItemsChange: (items: any[]) => void
